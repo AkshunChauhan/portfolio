@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f51fe9c6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hey, I'm <span class="auto-type"></span></h1>
+                <h1>Computer Programming<br>Student at <br><span class="auto-type2"></span></h1>
+            </div>
+        </div>
+    </div>
+    <!---------------about----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>i am akshun chauhan international student in red deer polytech i am currently studying computer
+                        programming this
+                        is my second year and i am looking for internship so that i can get the batter undrstanding of
+                        the concepts
+                        and implement my classroom knowledge in real life
+                        techialical knowlrdge i have is java , c# , python , PL/SQL , and web-dev which include html,
+                        css,
+                        and javascript i am also awair how a docker works which is git and github.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achivement')">Achivement</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br></li>
+                            <li><span>Python</span><br></li>
+                            <li><span>C#.NET</span><br></li>
+                            <li><span>PL/SQL</span><br></li>
+                            <li><span>Javascript</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achivement">
+                        <ul>
+                            <li><span>2019</span><br>Won All India Science Compatation</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-current</span><br>Computer Programming deploma from RDP</li>
+                            <li><span>2020-2021</span><br>physics, chemistary maths and computer science</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>mordern and userfrinandly disigne according to the customer needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Dextop application</h2>
+                    <p>custom application according to user needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>App development </h2>
+                    <p>full stack application development for businesses which fit all there needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!------------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>downlode it from the play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>downlode it from the play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>downlode it from the play store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Akshunchauhan099@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+1 4038907824</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/akshun.chauhan/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Akshun_official"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/akshun_official/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/akshunchauhan/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/AK_FT.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Akshun Chuahan.</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Akshun Chauhan", "AK."],
+            typeSpeed: 120,
+            backSpeed: 120,
+            loop: true
+        })
+        var typed = new Typed(".auto-type2", {
+            strings: ["Red Deer Polytech", "RDP"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
