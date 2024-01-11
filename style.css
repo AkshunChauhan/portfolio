@@ -311,7 +311,7 @@ nav ul{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: var(--secondary-color);
     display: inline-block ;
     transition: transform 0.5s;
     
@@ -359,8 +359,11 @@ nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    #header{
+    /*#header{
         background-image: url(images/phone-background.png);
+    }*/
+    nav ul li a{
+        color:#000000;
     }
    
     .header-text h1{
@@ -373,7 +376,7 @@ nav .fas{
     }
     nav ul{
         text-align: left;
-        background: #ff004f;
+        background: #F4DB7D;
         position: fixed;
         top: 0;
         right: -170px;
