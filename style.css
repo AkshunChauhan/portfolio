@@ -36,6 +36,7 @@ body{
     position: absolute;
     bottom: 0;
     right: 100px;
+    z-index: -1;
 }
 .img-box img{
     height: 100%;
@@ -95,6 +96,7 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 50px;
     margin-top: 20px;
+    
 }
 .header-text h1 span{
     color: #ff4400;
