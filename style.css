@@ -36,7 +36,6 @@ body{
     position: absolute;
     bottom: 0;
     right: 100px;
-    z-index: -1;
 }
 .img-box img{
     height: 100%;
@@ -45,6 +44,7 @@ body{
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+    z-index: -1;
 }
 .img-box:hover .back-img{
     bottom: 40px;
